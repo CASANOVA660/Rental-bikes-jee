@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+	  <title>Contacts</title>
+	  <meta charset="utf-8">
+	  <meta name = "format-detection" content = "telephone=no" />
+	  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	  <link rel="stylesheet" href="css/style.css">
+	  <script src="js/jquery.js"></script>
+	  <script src="js/jquery-migrate-1.1.1.js"></script>
+	  <script src="js/jquery.easing.1.3.js"></script>
+	  <script src="js/scroll_to_top.js"></script>
+	  <script src="js/script.js"></script>
+	  <script src="js/TMForm.js"></script>
+	  <script src="js/jquery.equalheights.js"></script>
+	  <script src="js/superfish.js"></script>
+	  <script src="js/jquery.mobilemenu.js"></script>
+	  <script src="js/touchTouch.jquery.js"></script>
+	  <script src="js/jquery.tools.min.js"></script>
+
+	  <!-- font-awesome font -->
+	  <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+	  <!-- fontello font -->
+
+	  <!--[if lt IE 8]>
+		 <div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+			  <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+	 <![endif]-->
+	 <!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	 <![endif]-->
+	  </head>
+<body>
+<!--button back top-->
+<div id="back-top"></div>    
+<div class="main">
+	<div class="div-content">  
+
+		<div class="top_section">
+			<div class="container_12">
+				<div class="grid_12">
+					
+					<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+<!--==============================header=================================-->
+		  <header>
+				<div class="container_12">
+					 <div class="grid_12">
+					 	<h1><a href="index.html"><img src="images/logo.png" alt="Gear"></a></h1>
+						<nav>
+							<ul class="sf-menu header_menu">
+								<li><a href="index.html">Home<strong></strong></a></li>
+								<li><a href="index-1.html">About<strong></strong></a></li>
+								<li><a href="index-2.html"><span></span>Club events<strong></strong></a>
+									  <ul class='submenu'>
+											<li><a href="#">Dolore ipsu</a></li>
+											<li class='sub-menu'><a href="#">Consecte</a>
+												 <ul class='submenu2'>
+													  <li><a href="#">Dolore ipsu</a></li>
+													  <li><a href="#">Consecte</a></li>
+													  <li><a href="#">Elit Conseq</a></li>
+												 </ul>
+											</li>
+											<li><a href="#">Elit Conseq</a></li>
+									  </ul>
+								 </li>
+
+								 
+								 <li><a href="index-3.html">Gallery<strong></strong></a></li>
+								 <li><a href="index-4.html">Blog<strong></strong></a></li>
+								 <li class="current"><a href="index-5.html">Contacts<strong></strong></a></li>
+							</ul>
+						</nav>
+
+					 </div>
+				</div>
+		  </header>
+
+<!--=======content================================-->
+
+		  <div class="container_12">
+				<div class="grid_12">
+				
+					<div class="wrapper">
+						<div class="grid_5 alpha">
+							<h2>Postal<span>Address</span></h2>
+							
+							<figure class="img_inner">
+                  <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+              </figure>
+              <address>	
+                  <dl>
+                      <dt>8901 Marmora Road, Glasgow, D04 89GR.</dt>
+                      <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                      <dd><span>FAX:</span> +1 504 889 9898</dd>
+                      <dd>E-mail: <a href="#" class="link7">mail@demolink.org</a></dd>
+                  </dl>
+              </address>
+							
+							
+						</div>
+						
+						<div class="grid_7 omega">
+							<h2>Contact<span>Form</span></h2>
+							
+							<form id="contact-form">
+									<div class="success-message">Contact form submitted! <strong>We will be in touch soon.</strong></div>
+									<div class="wrapper">
+										<label class="name">
+											<input type="text" placeholder="Name:" data-constraints="@Required @JustLetters" />
+											<span class="empty-message">*This field is required.</span>
+											<span class="error-message">*This is not a valid name.</span>
+										</label>
+										<label class="email">
+											<input type="text" placeholder="Email:" data-constraints="@Required @Email" />
+											<span class="empty-message">*This field is required.</span>
+											<span class="error-message">*This is not a valid email.</span>
+										</label>
+										<label class="phone">
+											<input type="text" placeholder="Phone:" data-constraints="@Required @JustNumbers"/>
+											<span class="empty-message">*This field is required.</span>
+											<span class="error-message">*This is not a valid phone.</span>
+										</label>
+									</div>
+									<label class="message">
+										<textarea placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+										<span class="empty-message">*This field is required.</span>
+										<span class="error-message">*The message is too short.</span>
+									</label>
+									<div  class="form_btns">
+										<a href="#" data-type="reset" class="link8">Clear</a>
+										<a href="#" data-type="submit" class="link8">Send</a>
+									</div>  
+								</form>
+							
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					
+					
+
+					
+					
+
+						 
+					 </div>
+				</div>
+
+	 </div>
+	 <!--=======footer=================================-->
+		  <footer>
+				<div class="footer_priv">
+					 <div class="container_12">
+						<div class="grid_12">
+							<ul class="soc_icons">
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-google-plus"></i></a></li>
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-rss"></i></a></li>
+							</ul>
+							
+							<p class="txt_priv"><span class="color2">GEAR</span> &copy; 2013 | <a href="index-6.html">Privacy Policy</a></p>
+						</div>
+
+					 </div>
+				</div>  
+		  </footer>
+</div>
+<script type="text/javascript">
+		$(window).load(function(){
+			$('#contact-form').TMForm({ownerEmail:'#'})
+		})
+</script>
+</body>
+</html>
